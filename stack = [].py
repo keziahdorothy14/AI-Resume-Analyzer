@@ -1,0 +1,20 @@
+print('initial stack')
+print(stack)
+print("/n elements poped from stack:")
+print(stack.pop())
+print(stack.pop())
+print(stcak.pop())
+print("/n stack after elements are poped:")
+print(stack)
+queue:
+queue = []
+queue.append('a')
+queue.append('b')
+queue.append('c')
+print("/n elements dequeued from queue")
+print(queue.pop(0))
+print(queue.pop(0))
+print(queue.pop(0))
+print("/n queue after removing elements")
+print(queue)
+
